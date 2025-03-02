@@ -5,13 +5,14 @@ metadata:
   namespace: stirlingpdf
 spec:
   interval: 10m
+  releaseName: stirlingpdf-release
   chart:
     spec:
       chart: stirlingpdf-repository
       version: '0.43.X'
       sourceRef:
         kind: HelmRepository
-        name: stirlingpdf-repository
+        name: stirlingpdf-release
         namespace: flux-system
       interval: 10m
   values:
