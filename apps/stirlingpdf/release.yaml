@@ -12,7 +12,7 @@ spec:
       version: '0.43.X'
       sourceRef:
         kind: HelmRepository
-        name: stirlingpdf-chart
+        name: stirlingpdf
         namespace: flux-system
       interval: 10m
   values:
