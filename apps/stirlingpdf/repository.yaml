@@ -9,4 +9,3 @@ metadata:
 spec:
   interval: 1m
   url: https://stirling-tools.github.io/Stirling-PDF-chart
-  name: stirlingpdf-chart
