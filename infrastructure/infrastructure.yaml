@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./apps/ingress-nginx
+  path: ./infrastructure/ingress-nginx
   prune: true
   wait: true
   sourceRef:
