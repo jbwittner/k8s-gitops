@@ -18,7 +18,6 @@ spec:
     replicaCount: 1
     ingress:
       enabled: true
-      ingressClassName: "nginx"
       hosts:
         - name: stirling.bytedragon.tech
           path: /
