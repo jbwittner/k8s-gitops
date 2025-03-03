@@ -23,13 +23,7 @@ spec:
           path: /
     resources:
       limits:
-        cpu: 500m  # Augmenté pour accélérer le démarrage
         memory: 512Mi  # Augmenté pour éviter les OOM
       requests:
-        cpu: 100m
-        memory: 256Mi
-    probes:
-      liveness:
-        initialDelaySeconds: 60
-      readiness:
-        initialDelaySeconds: 60
+        cpu: 10m
+        memory: 512Mi  # Augmenté pour éviter les OOM
