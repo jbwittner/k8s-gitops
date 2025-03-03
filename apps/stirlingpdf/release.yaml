@@ -4,7 +4,7 @@ metadata:
   name: stirlingpdf-release
   namespace: stirlingpdf
 spec:
-  interval: 10m
+  interval: 10m # Interval de synchronisation avec le repository
   chart:
     spec:
       chart: stirling-pdf-chart # Nom du chart
@@ -13,7 +13,6 @@ spec:
         kind: HelmRepository
         name: stirlingpdf-repository
         namespace: stirlingpdf
-      interval: 10m
   values:
     replicaCount: 1
     ingress:

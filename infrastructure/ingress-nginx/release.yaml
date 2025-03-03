@@ -13,7 +13,6 @@ spec:
         kind: HelmRepository
         name: ingress-nginx-repository
         namespace: ingress-nginx
-      interval: 10m
   values:
     watchIngressWithoutClass: true # Permet de regarder les ingress sans classe
     ingressClassResource:
