@@ -13,3 +13,5 @@ spec:
         kind: HelmRepository
         name: longhorn-repository
         namespace: longhorn-system
+  values:
+    deletingConfirmationFlag: true # Flag that prevents accidental uninstallation of Longhorn.
