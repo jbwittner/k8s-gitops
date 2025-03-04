@@ -1,4 +1,4 @@
-# create a namespace for stirlingpdf
+# create a namespace for longhorn
 apiVersion: v1
 kind: Namespace
 metadata:
