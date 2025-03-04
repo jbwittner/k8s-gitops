@@ -8,7 +8,7 @@ spec:
   chart:
     spec:
       chart: longhorn # Nom du chart
-      version: 1.8.1  # Version du chart
+      version: 1.8.0  # Version du chart
       sourceRef:
         kind: HelmRepository
         name: longhorn-repository
